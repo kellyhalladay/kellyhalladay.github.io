@@ -1,8 +1,0 @@
-@font-face {
-	font-family: 'Playfair Display SC Regular';
-	src: url('playfairdisplaysc-regular-webfont.eot');
-	src: url('playfairdisplaysc-regular-webfont.eot?#iefix') format('embedded-opentype'),
-		url('playfairdisplaysc-regular-webfont.woff') format('woff'),
-		url('playfairdisplaysc-regular-webfont.ttf') format('truetype'),
-		url('playfairdisplaysc-regular-webfont.svg') format('svg');
-}
