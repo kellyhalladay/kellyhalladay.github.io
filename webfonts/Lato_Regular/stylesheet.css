@@ -1,8 +1,0 @@
-@font-face {
-	font-family: 'Lato Regular';
-	src: url('lato-regular-webfont.eot');
-	src: url('lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
-		url('lato-regular-webfont.woff') format('woff'),
-		url('lato-regular-webfont.ttf') format('truetype'),
-		url('lato-regular-webfont.svg') format('svg');
-}
