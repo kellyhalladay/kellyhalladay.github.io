@@ -1,7 +1,7 @@
 body, html {
   font: "Arial", sans-serif;
   background-color: #262626;
-  opacity: 0.80;
+  background-blend-mode: soft-light;
 }
 
 h1 {
