@@ -23,14 +23,14 @@ div.connections {
   background-color: transparent;
 }
 
-div.connections a:default {
+a:default {
   color: #010101;
 }
 
-div.connections a:hover {
+a:hover {
   color: #0099FF;
 }
 
-div.connections a:visited {
+a:visited {
   color: #010101;
 }
