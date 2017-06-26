@@ -1,12 +1,15 @@
 body, html {
-  font: "Arial", sans-serif;
+  font: "Verdana", sans-serif;
   background-color: #262626;
-  background-blend-mode: soft-light;
+}
+
+div.header {
+  vertical-align: middle;
+  align-content: center;
 }
 
 h1 {
   text-align: center;
-  vertical-align: middle;
   color: #010101;
 }
 
@@ -14,4 +17,16 @@ h6 {
   text-align: center;
   vertical-align: baseline;
   color: #ffffff;
+}
+
+div.buttons, a:default {
+  color: #010101;
+}
+
+div.buttons, a:hover {
+  color: #0099FF;
+}
+
+div.buttons, a:visited {
+  color: #010101;
 }
