@@ -11,7 +11,7 @@ div.connections {
   height: 40px;
   position: relative;
   text-align: center;
-  align-content: flex-end;
+  vertical-align: text-bottom;
 }
 
 div.connections img {
