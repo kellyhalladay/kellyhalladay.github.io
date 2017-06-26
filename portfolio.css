@@ -20,7 +20,7 @@ h6 {
 }
 
 div.connections {
-  background-color: none;
+  background-color: transparent;
 }
 
 div.connections a:default {
