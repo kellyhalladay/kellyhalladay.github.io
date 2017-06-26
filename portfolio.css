@@ -19,14 +19,18 @@ h6 {
   color: #ffffff;
 }
 
-div.buttons, a:default {
+div.buttons img {
+  width: 50%;
+}
+
+div.buttons a:default {
   color: #010101;
 }
 
-div.buttons, a:hover {
+div.buttons a:hover {
   color: #0099FF;
 }
 
-div.buttons, a:visited {
+div.buttons a:visited {
   color: #010101;
 }
