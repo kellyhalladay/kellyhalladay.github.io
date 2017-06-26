@@ -3,21 +3,21 @@ body {
   background-color: #262626;
 }
 
-h1 {
+div.header {
   text-align: center;
+  margin-bottom: 5%;
 }
 
 h6 {
-  text-align: center;
   color: #1A1A1A;
 }
 
 div.connections {
   height: 40px;
-  position: relative;
   text-align: center;
   vertical-align: baseline;
-  margin-top: 40%;
+  position: relative;
+  margin-top: 5%;
 }
 
 div.connections img {
@@ -25,6 +25,5 @@ div.connections img {
 }
 
 a:rollover {
-  width: 200%;
-  background : #84d0FF;
+
 }
