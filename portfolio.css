@@ -19,14 +19,18 @@ h6 {
   color: #ffffff;
 }
 
-div.buttons a:default {
+div.connections {
+  background-color: none;
+}
+
+div.connections a:default {
   color: #010101;
 }
 
-div.buttons a:hover {
+div.connections a:hover {
   color: #0099FF;
 }
 
-div.buttons a:visited {
+div.connections a:visited {
   color: #010101;
 }
