@@ -1,0 +1,348 @@
+/* CSS Reset Style */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+
+/* NPGeek CSS */
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+	font-size: 1.5vw;
+}
+
+header img {
+	width: 70%;
+	padding-top: 3%;
+	padding-left: 3%;
+}
+
+h2 {
+	font-size: 2.5vw;
+	font-weight: bold;
+	margin: 0;
+	display: inline-block;
+}
+
+h4 {
+	font-size: 2vw;
+	font-weight: normal;
+	margin: 0;
+	display: inline-block;
+}
+h5 {
+	font-size: 1.5vw;
+	font-weight: normal;
+	margin: 0;
+	display: inline-block;
+	color: #666666;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #1b531c;
+}
+
+a:visited {
+	
+}
+
+/* Nav Bar + Links */
+
+nav ul {
+	background: #1b531c;
+	width: 100%;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 4%;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 5%
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	text-align: center;
+	padding: 1%;
+	margin-right: 0 25px;
+	max-width: 200px;
+	font-size: 1vw;
+}
+
+.transform li a {
+	color: #FFFFFF;
+	position: relative;
+	display: inline-block;
+	outline: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px:
+	text-shadow: 0 0 1px 
+	rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+
+.transform a:hover,
+.transform a:focus {
+	outline: none;
+}
+
+.transform a::before,
+.transform a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+.transform a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+.transform a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+.transform a:hover::before,
+.transform a:hover::after,
+.transform a:focus::before,
+.transform a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+li a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/* Home Page */
+
+div.home-main {
+	display: block;
+	margin-left: 5%;
+	margin-bottom: 2%;
+}
+
+div.home-image {
+	display: inline-block;
+	width: 30%;
+	padding-right: 3%;
+}
+
+div.home-image img {
+	width: 100%;
+}
+
+div.main-content {
+	display: inline-block;
+	width: 60%;
+	vertical-align: top;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 1%;
+}
+
+/* Details Page */
+
+div.stuff {
+	align-items: center;
+}
+
+div.background-image {
+	width: 70%;
+	opacity: 0.3;
+	z-index: 1;
+	margin-left: 15%;
+}
+
+div.background-image img {
+	width: 100%;
+}
+
+div.detail-image {
+	position: relative;
+	width: 50%;
+	z-index: 2;
+	margin-left: 25%;
+	margin-top: -40%;
+}
+
+div.detail-image img {
+	display: block;
+	width: 100%;
+}
+
+div.detail-content {
+	display: block;
+	width: 70%;
+	margin-top: 10%;
+	margin-left: 15%;
+	margin-bottom: 10%;
+}
+
+div.detail-header {
+	margin-bottom: 5%;
+}
+
+/* Table */
+
+div.detail-content table { 
+	text-align: left;
+}
+
+div.detail-content table th, td {
+	padding: 7px;
+    text-align: left;
+	border-bottom: 1px solid #999999;
+}
+
+div.detail-content tr:hover {
+	background-color: #D9D9D9;
+}
+
+div.detail-content table th {
+	width: 70%;
+	font-size: 1.5vw;
+	column-width: 150px;
+}
+
+div.detail-content table td {
+	font-size: 1.5vw;
+	color: #474647;
+}
+
+div.quote {
+	display: block;
+	padding: 7%;
+	text-align: center;
+	font-size: 1.5vw;
+}
+
+/* Weather */
+
+div.weather {
+	display: block;
+	width: 70%;
+	margin-left: 15%;
+	vertical-align: text-top;
+}
+
+div.weather-content {
+	display: inline-block;
+	vertical-align: top;
+	width: 16%;
+	margin-right: 3%;
+	margin-bottom: 10%;
+	padding-top: 5%;
+}
+
+div.weather-image {
+	height: 175px;
+	margin-bottom: 2%;
+}
+
+div.weather-image img {
+	width: 100%;
+}
+
+div.w-text-stuff {
+	display: block;
+	width: 100%;
+}
+
+div.date {
+	display: block;
+	font-size: 1.25vw;
+	font-weight: bolder;
+	margin-bottom: 7%;
+}
+
+div.temperature {
+	display: block;
+	font-size: 1.25vw;
+	margin-bottom: 7%;
+}
+
+div.tips {
+	display: block;
+	font-size: 1.25vw;
+}
+
+/* Survey */
+
+div.survey-main {
+	margin-left: 5%;
+}
+
+div.survey-header {
+	margin-bottom: 5%;
+}
+
+/* Top Parks */
+
+div.topparks-header {
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
